@@ -43,7 +43,6 @@ void AddPersonToLine()
     person.Height = int.Parse(Console.ReadLine()!);
 
     lineOfPeople.AddToFront(person);
-
 }
 
 void PrintTheLine()
